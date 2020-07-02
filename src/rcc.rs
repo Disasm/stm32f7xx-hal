@@ -348,7 +348,7 @@ impl CFGR {
                         .pllp()
                         .bits(pllp)
                         .pllq()
-                        .bits(9)
+                        .bits(6)
                 });
             } else {
                 // If HSE is not provided
